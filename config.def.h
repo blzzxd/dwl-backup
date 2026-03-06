@@ -12,7 +12,7 @@ static const unsigned int gappx            = 10; /* gap pixel between windows */
 static const unsigned int borderpx         = 4;  /* border pixel of windows */
 static const int showbar                   = 1; /* 0 means no bar */
 static const int topbar                    = 1; /* 0 means bottom bar */
-static const char *fonts[] = { "JetBrainsMono Nerd Font Mono:style=Bold:size=16"};
+static const char *fonts[] = { "JetBrainsMono:style=Bold:size=16"};
 static const float rootcolor[]             = COLOR(0x000000ff);
 /* This conforms to the xdg-protocol. Set the alpha to zero to restore the old behavior */
 static const float fullscreen_bg[]         = {0.0f, 0.0f, 0.0f, 1.0f}; /* You can also use glsl colors */
@@ -125,7 +125,7 @@ static const enum libinput_config_tap_button_map button_map = LIBINPUT_CONFIG_TA
 /* commands */
 static const char *termcmd[] = { "alacritty", NULL };
 static const char *menucmd[] = {
-    "wmenu-run", "-f", "JetBrainsMono Nerd Font Mono bold 12", "-N", "#2E3440", "-n", "#D8DEE9", "-S", "#88C0D0", "-s", "#2E3440", "-M", "#3B4252", "-m", "#ECEFF4", NULL
+    "wmenu-run", "-f", "JetBrainsMono bold 12", "-N", "#2E3440", "-n", "#D8DEE9", "-S", "#88C0D0", "-s", "#2E3440", "-M", "#3B4252", "-m", "#ECEFF4", NULL
 };
 
 static const Key keys[] = {
